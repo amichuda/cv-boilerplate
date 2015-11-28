@@ -25,9 +25,12 @@ experience:
   city: Königsberg, DE
 ```
 
-That makes super easy to update a CV while keeping a consistent structure.
+The advantage of keeping things in the YAML file is that it is then easy to
+convert the information, using [pandoc](pandoc.org), into a PDF (via pandoc and
+LaTeX) or html (via pandoc and some css styling), or any other format (e.g. a
+Word .docx file).
 
-Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` using a special notation. Iterating on repetitive data structures becomes trivial:
+For example, using `template.tex` we can easily iterate on repetitive data structures:
 
 ```latex
 $for(experience)$
@@ -38,11 +41,10 @@ $for(experience)$
 $endfor$
 ```
 
-LaTeX takes then care of the typesetting with its usual elegance. Below a preview of the final result. Check out the [output](output.pdf) to see the compiled PDF.
-
-![preview](preview.jpg)
-
-With this method, you can keep your entire CV encoded in a single YAML file, put it under version control (into a gist, for instance), and generate a PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing. Convenient, portable and time-proof.
+There is also a makefile included for ease of generation of PDF and html. With
+this method, you can keep your entire CV encoded in a single YAML file, put it
+under version control (into a gist, for instance), and generate a PDF and
+webpage on the fly, with a single `make` command when needed.
 
 ## Dependencies
 
