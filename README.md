@@ -1,32 +1,28 @@
 # CV Boilerplate
 
-> I consider LaTeX resumes to be a secret handshake of sorts, something that makes me significantly more likely to be inclined to hire a candidate.  
-> &mdash;<cite>[zackelan](https://news.ycombinator.com/item?id=10452606)<cite> on HN
-
-A boilerplate to ease the pain of building and maintaining a CV or résumé using LaTeX.
+A boilerplate to ease the pain of building and maintaining a CV or résumé using
+ [pandoc](http://pandoc.org).
 
 ## Intro
 
 Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for a YAML file due to its structured nature:
 
 ```YAML
----
-name: Friedrich Nietzsche
-address:
-- Humboldtstraße 36
-- 99425 Weimar
-- Prussia
-email: friedrich@thevoid.de
-# ...
+name: Immanuel Kant
+address: Königsberg, Prussia
+email: manny@copernicanrevolution.edu
+
+AOS:
+- Aesthetics, Epistemology, Ethics, Metaphysics, Philosophy of Mind, Political Philosophy
+
+AOC:
+- German Idealism, Philosophy of Religion
+
 experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philisoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
+- years: 1770-1804
+  employer: University of Königsberg
+  job: Chair of Logic and Metaphysics
+  city: Königsberg, DE
 ```
 
 That makes super easy to update a CV while keeping a consistent structure.
@@ -61,15 +57,15 @@ To install pandoc on Mac OS X, run `brew install pandoc`. To install it on Linux
 
 1. Run this in your terminal to clone the repo, move into the right directory and delete all the git stuff:
 
-        git clone git@github.com:mrzool/cv-boilerplate.git && cd cv-boilerplate && rm -rf .git
+        git clone git@github.com:mclearc/cv-boilerplate.git && cd cv-boilerplate && rm -rf .git
 
 2. Open `content.yml` with your text editor and fill it with your personal details, work experience, education, and desired settings.
 3. Run `make` to compile the PDF.
-4. Tweak on `template.tex` until you're satisfied with the result.
+4. Tweak the `template.tex`, `template.html`, and `style.css` files until you're satisfied with the results.
 
 Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.
 
-**Note**: this template needs to be compiled with XeTeX.
+**Note**: for the font settings to work this template needs to be compiled with XeTeX.
 
 ## Available settings
 
@@ -98,6 +94,8 @@ Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html
 
 ## License
 
-This repository contains a modified version of Dario Taraborelli's [cvtex](https://github.com/dartar/cvtex) template.
+This repository contains a modified version of Dario Taraborelli's
+[cvtex](https://github.com/dartar/cvtex) template, with further modifications
+from Mattia Tezzele's original  [boilerplate](https://github.com/mrzool/cv-boilerplate.git).
 
 License: [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
