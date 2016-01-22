@@ -83,9 +83,9 @@ chapters:
   book: Kant on Animals
   publisher: "Oxford: Oxford University Press"
 - year: Forthcoming
-  title: "Intuition and Prensence"
+  title: "Intuition and Presence"
   editor: Anil Gomes, Andrew Stephenson (eds.)
-  book: Kant on Animals
+  book: Kant, Philosopher of Mind
   publisher: "Oxford: Oxford University Press"
 
 reviews:
@@ -115,6 +115,10 @@ invited:
   month: April
   title: "Concepts & Abilities"
   place: Symposium on Kant on Concepts. Pacific division of the American Philosophical Association
+# - year: 2015
+#   month: December
+#   title: "Animals & Objectivity"
+#   place: Humboldt-Universität zu Berlin.
 - year: 2015
   month: January
   title: Comments on Stefanie Grüne’s "Kant on the Object-Dependence of Intuition"
@@ -132,7 +136,7 @@ invited:
   title: "Animals & Objectivity"
   place: Kant on Animals Conference, University of the Witwatersrand, South Africa
 - year: 2013
-  month: January–Febuary
+  month: January–February
   title: Kant on the Representation of an Object
   place: University of Michigan; University of Illinois, Urbana-Champaign; Illinois State University
 - year: 2012
@@ -236,9 +240,11 @@ service:
 - year: UNL
   post: History Area Committee; Placement Co-director; Speakers Committee; UNL Graduate Fellowship Committee
 - year: Referee Work
-  post: "Archiv für Geschichte der Philosophie, Dialogue, Cambridge University Press, History of Philosophy Quarterly, Journal of Philosophical Research, Kantian Review (multiple times), Kant Studies Online, Mind (multiple times), Minds & Machines, Oxford University Press, Philosophers’ Imprint, Philosophical Papers, Philosophy & Phenomenological Research, Res Philosophica, Social Theory & Practice, SSHRC of Canada, The Philosophical Review"
+  post: "Archiv für Geschichte der Philosophie, British Journal for the History of Philosophy, Cambridge University Press, Dialogue, European Journal of Philosophy, History of Philosophy Quarterly, Journal of Philosophical Research, Kantian Review (multiple times), Kant Studies Online, Mind (multiple times), Minds & Machines, Oxford University Press (multiple times), Philosophers’ Imprint (multiple times), Philosophical Papers, Philosophy & Phenomenological Research, Res Philosophica, Social Theory & Practice, SSHRC of Canada, The Philosophical Review, The Philosophical Quarterly"
 - year: Ongoing
   post: "Subject-area Editor: Kant’s Works, Philpapers.org"
+- year: 2016
+  post: Third Biennial NAKS Conference Peer Review Committee
 - year: 2015-16
   post: Program Committee member, Central Division APA
 - year: 2015
