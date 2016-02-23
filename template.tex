@@ -97,6 +97,13 @@ $endif$
 %%%------------------------------------------------------------------------
 %%% Page layout
 %%%------------------------------------------------------------------------
+
+% Avoid widows and orphans
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+% Fancy header/footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}

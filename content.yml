@@ -85,7 +85,7 @@ chapters:
 - year: Forthcoming
   title: "Intuition and Presence"
   editor: Anil Gomes, Andrew Stephenson (eds.)
-  book: Kant, Philosopher of Mind
+  book: Kant and the Philosophy of Mind
   publisher: "Oxford: Oxford University Press"
 
 reviews:
@@ -115,10 +115,10 @@ invited:
   month: April
   title: "Concepts & Abilities"
   place: Symposium on Kant on Concepts. Pacific division of the American Philosophical Association
-# - year: 2015
-#   month: December
-#   title: "Animals & Objectivity"
-#   place: Humboldt-Universität zu Berlin.
+- year: 2015
+  month: December
+  title: "Animals & Objectivity"
+  place: Humboldt-Universität zu Berlin.
 - year: 2015
   month: January
   title: Comments on Stefanie Grüne’s "Kant on the Object-Dependence of Intuition"
